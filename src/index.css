@@ -1,5 +1,19 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.list-info {
+  list-style: none;
+  color: blueviolet;
+}
+
+/* squad */
+
+.squadColor {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.squadCont {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 10px;
 }
