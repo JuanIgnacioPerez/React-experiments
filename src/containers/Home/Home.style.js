@@ -6,6 +6,7 @@ export const Image = styled.img`
 
 export const HeroImage = styled.div`
   height: 300px;
+  margin-top: 45px;
   background-image: url('${require('../../assets/hero2.gif')}');
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Zoomy from 'react-zoomy';
+import {Background} from '../App/App.style';
 import { ImageButton, Index } from '../Projects/Projects.style';
 import { Container, Relative, Flex } from '../../theme/grid';
 import { A } from '../../theme/types';
@@ -30,6 +31,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
+        <Background />
         <Container>
           <Relative marginBottom='50px'>
             <Index>

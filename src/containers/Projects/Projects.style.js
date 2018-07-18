@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from '../../theme/variables';
+import { LinkColor } from '../../theme/variables';
 
 export const ImageButton = styled.div`
   cursor: pointer;
@@ -21,14 +21,14 @@ export const ImageButton = styled.div`
 export const Index = styled.div`
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -60px;
   z-index: -1;
   font-size: 3em;
 
   h1 {
     margin: 0;
     font-weight: bold;
-    color: ${Link};
+    color: ${ LinkColor };
     opacity: 0.5;
     transform: translateY(20%)
   }
