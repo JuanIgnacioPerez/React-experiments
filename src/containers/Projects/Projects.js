@@ -37,7 +37,7 @@ class Projects extends Component {
             <Index>
               <h1>01</h1>
             </Index>
-            <h1>click on the image and <br /><A href='#'>look at the magic</A></h1>
+            <h1>click on the image and <br /><A style={{ cursor: 'pointer' }}> look at the magic</A></h1>
           </Relative>
           <Flex justify={'center'}>
             <Zoomy
