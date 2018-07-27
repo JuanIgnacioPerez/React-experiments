@@ -4,6 +4,7 @@ import { Container } from '../../theme/grid';
 import { Row, Col } from 'react-bootstrap';
 import SimpleMap from '../../components/Map/Map';
 import ImageBit from '../../components/ImageBit/ImageBit';
+import ToDo from '../../components/ToDoList/ToDoList'
 
 class AboutMe extends Component {
   constructor(props) {
@@ -22,9 +23,7 @@ class AboutMe extends Component {
             <ImageBit />
           </Col>
           <Col sm={6}>
-            <div className='step-progress'>
-              
-            </div>
+            <ToDo />
           </Col>
         </Row>
 
