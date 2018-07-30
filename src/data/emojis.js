@@ -4,6 +4,7 @@ const emojis = {
   'comer': '🤤🍕',
   'bailar': '🕺💃',
   'estudiar': '👨🏻‍💻🤓',
+  
 }
 
 export default emojis;
